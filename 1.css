@@ -1,0 +1,304 @@
+.body {
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.navbar-brand .logo{
+    color: #3E3E3E;
+    font-weight: 700;
+    font-size: 22px;
+    box-sizing: border-box;
+     
+
+}
+.navbar-nav li{
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.hover{
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+
+.hover:hover {
+    background-color: #e2e3e5;
+}
+.carousel-caption{
+    z-index: 5;
+}
+
+.caption-content {
+   
+    width: 639px;
+    height: 230px;
+   
+  
+}
+
+.carousel-caption h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120.5%;
+    text-align: center;
+}
+
+.carousel-caption p{
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
+.lead-text{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+    padding: 47px 0;
+    color: #0A0826;
+}
+
+
+
+
+
+
+
+.Package h3 {
+    color: #231D4F;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.Package h5 {
+    color: #231D4F;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.Packagee p {
+    color: #848199;
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+.Package li{
+    color: #848199;
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+
+.Packagee h5:hover {
+    color: white;
+}
+.Packagee h3 {
+    color: #231D4F;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.Packagee h5 {
+    color: #231D4F;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.Packagee p {
+    color: #848199;
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+.Packagee li{
+    color: #848199;
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+
+.Packagee h5:hover {
+    color: white;
+}
+.Packagee {
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Ensure the border radius applies to all content */
+    border: none; /* Remove default border */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #fff;
+    text-decoration: none; /* Default background color */
+
+}
+
+.Package {
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Ensure the border radius applies to all content */
+    border: none; /* Remove default border */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #fff;
+    text-decoration: none; /* Default background color */
+
+}#hot-package {
+    border: none; /* Remove the border */
+    box-shadow: none; /* Remove shadow if any */
+}
+#hot-package {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /
+    position: relative; /* Ensure the badge is positioned relative to the card */
+}
+
+
+
+
+
+
+
+.navbar-toggler {
+    border: none; /* Remove border from the toggler */
+}
+
+
+
+.badge {
+    position: fixed; /* Keep the badge in a fixed position */
+    top: 10px; /* Adjust as necessary */
+    right: 10px; /* Adjust as necessary */
+    z-index: 10; /* Ensure it's on top of other elements */
+transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.card:hover {
+    background-color:#3F87F5; /* Fully blue background on hover */
+    color: white; /* Ensures text is readable on blue background */
+    transform: scale(1.05) translateY(-10px); /* Slightly larger and moved up */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow effect */
+    border-radius: 20px;
+}
+.Package:hover {
+    background-color:#3F87F5; /* Fully blue background on hover */
+    color: white; /* Ensures text is readable on blue background */
+    transform: scale(1.05) translateY(-10px); /* Slightly larger and moved up */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow effect */
+}
+
+
+.Package h3:hover,
+.Package h5:hover,
+.Package p:hover
+ {
+    color: white; 
+    /* Change text color on hover */
+}
+.Package a:hover{
+    background-color:#FEF5FB;
+    color:#3F87F5 ;
+    font-weight: bolder;
+
+}
+.Packagee a:hover{
+    background-color:#FEF5FB;
+    color:#3F87F5 ;
+    font-weight: bolder;
+
+}
+
+.Package:hover h3,
+.Package:hover h5,
+.Package:hover p ,
+.Package:hover li{
+    color: white; /* Ensure text is white on hover */
+}
+
+.icon-size {
+    width: 20px;
+    height: 20px;
+    background-color: #cfe2ff; /* Keep the original background color */
+    text-align: center;
+    border-radius: 12px; /* Ensures the icon fits within the specified width and height */
+    align-items: center; /* Center vertically */
+    color: black; /* Default icon color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.list-unstyled {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Package:hover .icon-size{
+   
+    background-color: #0d6efd; }
+
+.Package a{
+    width: 100%;
+    border-radius: 20px;
+    background: #FEF5FB;
+   
+    color: #3F87F5;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    border: none; 
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+.Packagee a{
+    width: 100%;
+    border-radius: 20px;
+    background: #FEF5FB;
+   
+    color: #3F87F5;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    border: none; 
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+
+.info-content .info-header{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.info-content .info-text{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.info-content .explore-btn .btn{
+    background: #3F87F5;
+    border-radius: 2px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
